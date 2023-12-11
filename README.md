@@ -24,6 +24,10 @@ Siga estas etapas para instalar e executar o projeto localmente:
     ```
     flask run
     ```
+5. Acesse o projeto:
+    ```
+    http://localhost:5000
+    ```
 
 ## Uso
 
