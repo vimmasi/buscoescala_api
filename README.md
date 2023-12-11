@@ -16,17 +16,29 @@ Siga estas etapas para instalar e executar o projeto localmente:
     ```
     cd buscoescala_api
     ```
+3. Crie o ambiente virtual:
+    ```
+    py -3 -m venv venv
+    ```
 3. Inicie o ambiente virtual:
     ```
     .venv\Scripts\activate
     ```
-4. Execute o projeto:
+4. Instale as dependências:
+    ```
+    pip install -r requirements.txt
+    ```
+5. Execute o projeto:
     ```
     flask run
     ```
-5. Acesse o projeto:
+6. Acesse o projeto:
     ```
     http://localhost:5000
+    ```
+7. (opcional) Caso retorne o erro chamado `While importing 'app', an ImportError was raised`, nesse caso instale o Flask Restx manualmente:
+    ```
+    pip install flask-restx
     ```
 
 ## Uso
