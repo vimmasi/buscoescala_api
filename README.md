@@ -38,7 +38,7 @@ Siga estas etapas para instalar e executar o projeto localmente:
     ```
 7. (opcional) Caso retorne o erro chamado `While importing 'app', an ImportError was raised`, nesse caso instale o Flask Restx manualmente:
     ```
-    pip install flask-restx
+    pip install --upgrade flask-restx
     ```
 
 ## Uso
